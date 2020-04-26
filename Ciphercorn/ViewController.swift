@@ -73,10 +73,12 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
         var encodedMessage = ""
         
         for char in messageField.text {
-            if cipherMap.keys.contains(String(char)) {
-                encodedMessage += cipherMap[String(char)]!
+            let str = String(char)
+            
+            if cipherMap.keys.contains(str) {
+                encodedMessage += cipherMap[str]!
             } else {
-                encodedMessage += String(char)
+                encodedMessage += str
             }
         }
         
