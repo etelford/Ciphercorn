@@ -90,7 +90,9 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
             self.present(composeVC, animated: true, completion: nil)
         }
         
+        #if DEBUG
         print(encodedMessage)
+        #endif
     }
     
     override func viewDidLoad() {
