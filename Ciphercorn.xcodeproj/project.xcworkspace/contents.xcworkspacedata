@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CipherSender.xcodeproj">
+      location = "self:/Users/etelford/code/CipherSender/Ciphercorn.xcodeproj">
    </FileRef>
 </Workspace>
