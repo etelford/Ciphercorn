@@ -1,10 +1,12 @@
 # Ciphercorn
 
+![Ciphercorn](icons/iOS/AppIcon.appiconset/app-icon-76.png)
+
 This is a very simple Swift app that allows you to send an iMessage or text encoded using a static cipher.
 
 I wrote this for my daughter who was interested in sending an encoded message and then decoding that message using a cipher map that she had written down.
 
-## Map
+## Letter Mappings
 
 The following is the mapping of letters for the cipher.
 
